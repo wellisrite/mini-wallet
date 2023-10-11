@@ -16,7 +16,7 @@ The Mini Wallet Service is a simple API service for managing virtual wallets. It
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/mini-wallet-service.git
+   git clone https://github.com/wellisrite/mini-wallet-service.git
 Change directory to the project folder:
 
 bash
