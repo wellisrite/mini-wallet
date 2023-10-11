@@ -29,6 +29,10 @@ Install dependencies:
 go mod tidy
 ```
 
+```bash
+go mod vendor
+```
+
 Create a PostgreSQL database for the project and update the database configuration in the .env file.
 
 Run the project:
