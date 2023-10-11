@@ -21,16 +21,22 @@ Change directory to the project folder:
 
    ```bash
 cd mini-wallet-service
+```
+
 Install dependencies:
 
    ```bash
 go mod tidy
+```
+
 Create a PostgreSQL database for the project and update the database configuration in the .env file.
 
 Run the project:
 
    ```bash
 go run .
+```
+
 The server will start, and you can access the API at http://localhost:8080.
 
 API Documentation
