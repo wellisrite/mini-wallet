@@ -19,17 +19,17 @@ The Mini Wallet Service is a simple API service for managing virtual wallets. It
    git clone https://github.com/wellisrite/mini-wallet-service.git
 Change directory to the project folder:
 
-bash
+   ```bash
 cd mini-wallet-service
 Install dependencies:
 
-bash
+   ```bash
 go mod tidy
 Create a PostgreSQL database for the project and update the database configuration in the .env file.
 
 Run the project:
 
-bash
+   ```bash
 go run .
 The server will start, and you can access the API at http://localhost:8080.
 
