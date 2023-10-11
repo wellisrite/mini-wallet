@@ -41,7 +41,6 @@ func (h *Handlers) DepositHandler(w http.ResponseWriter, r *http.Request) {
 	}
 	request.ReferenceID = r.FormValue("reference_id")
 
-	request.Amount += wallet.Balance
 	// Call the repository function to add the deposit
 	deposit, err := h.TransactionRepository.AddDeposit(customerID, request.ReferenceID, request.Amount)
 	if err != nil {
