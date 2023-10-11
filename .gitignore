@@ -1,0 +1,43 @@
+# Compiled Go binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Compiled Object files, Static and Dynamic libs (separate directories)
+*.o
+*.a
+*.lib
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Test binary
+*_test
+
+# Output of the go coverage tool, custom output directory
+*.out
+
+# Random data files
+*.rand
+
+# Go generated files
+/bin/
+/pkg/
+/vendor/
+
+# Application binaries or scripts (if it's in your project)
+/app
+
+# Application infrastructure
+/infra
+
+# Environment Variables
+.env
+
+# Local development configuration
+config.local.json
